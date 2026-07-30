@@ -4,7 +4,7 @@ import os
 from typing import Optional
 
 import requests
-from fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP
 
 # --- Config ---
 MAILCHIMP_API_KEY = os.environ.get("MAILCHIMP_API_KEY", "")
